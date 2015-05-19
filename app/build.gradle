@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "eu.guardiansystems.livesapp"
+        minSdkVersion 10
+        targetSdkVersion 21
+        versionCode 8
+        versionName "1.0.8"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+
+    repositories {
+        maven {
+            url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+        }
+    }
+}
+
+/*
+configurations {
+    provided {
+        dependencies.all { dep ->
+            configurations.default.exclude group: dep.group, module: dep.name
+        }
+        extendsFrom compile
+    }
+}
+
+sourceSets {
+    main {
+        runtimeClasspath += configurations.provided
+    }
+}
+*/
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'io.nlopez.smartlocation:library:3.0.5'
+    compile 'com.afollestad:material-dialogs:0.6.3.5'
+    compile (group: 'org.eclipse.paho', name: 'org.eclipse.paho.android.service', version: '1.0.3-SNAPSHOT') {
+        exclude module: 'support-v4'
+    }
+    compile ('com.github.snowdream.android.app:updater:1.0@aar'){
+        transitive=true
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}

@@ -1,0 +1,170 @@
+<resources>
+
+		<string name="dialog_nomaps_title">dialog_nomaps_title</string>
+		<string name="dialog_nomaps_message">dialog_nomaps_message</string>
+
+		<string name="notification_available">Connecté avec centre des opérations</string>
+		<string name="notification_unavailable">Déconnecté / Pas d\'alarmes</string>
+
+		<string name="app_name">Livesapp</string>
+		<string name="full_app_name">Livesapp</string>
+		<string name="menu_settings">Paramètres</string>
+		<string name="title_activity_splash">Livesapp</string>
+
+		<!-- Menu -->
+		<string name="menu_soundforce_type_alarm">Alarme activé même le son soit coupé</string>
+		<string name="menu_soundforce_type_vibrate">Vibrations activé même le son soit coupé</string>
+		<string name="menu_soundforce_type_native">Maintenir le volume du système</string>
+		<string name="menu_soundforce_type">Alarme comportement</string>
+		<string name="menu_soundforce_length">Alarm durée</string>
+		<string name="menu_soundforce_volume">Réglages de volume</string>
+
+		<string name="case_notification">Livesapp opération d\'urgence a reçu</string>
+
+		<string name="splashscreen_checking_connection">Vérifier connexion internet&#8230;</string>
+		<string name="splashscreen_checking_downtime">Non connecté ou le maintien du Livesapp.io</string>
+
+		<string name="login_email_hint">Email</string>
+		<string name="login_passwort_hint">Mot de passe</string>
+		<string name="login_save_hint">Ne oubliez pas d\'identification</string>
+
+		<string name="button_login_text">Connecter</string>
+		<string name="button_help">Assistance</string>
+		<string name="button_register_text">Inscription</string>
+		<string name="button_registersubmit_text">Soumettre votre formulaire</string>
+
+		<string name="dashboard_toggle_on">
+				<i>Info</i>
+				<b> </b>
+				<b>Événement</b>
+		</string>
+		<string name="dashboard_toggle_off">
+				<b>Info</b>
+				<b> </b>
+				<i>Événement</i>
+		</string>
+
+		<string name="user_verified">Statut</string>
+
+		<string name="toolbar_stream">Nouvelles</string>
+		<string name="toolbar_cases">Événements</string>
+		<string name="toolbar_help">Vite Assistance</string>
+		<string name="toolbar_settings">Paramètres</string>
+		<string name="toolbar_arrived">Arrivé au événements!</string>
+		<string name="toolbar_logout">Déconnecter</string>
+		<string name="toolbar_volunteers">Volontaires</string>
+		<string name="toolbar_route">Route</string>
+		<string name="toolbar_autozoom">Autozoom</string>
+
+		<string name="case_volunteers">Volontaires</string>
+		<string name="case_time">Min.</string>
+		<string name="case_distance_meters">m</string>
+		<string name="case_distance_kilometers">km</string>
+		<string name="case_distance_meters_full">mètres</string>
+		<string name="case_distance_kilometers_full">kilom.</string>
+
+		<string name="unlocker_text">Déverrouiller à accepter</string>
+
+		<!-- Bubbles -->
+		<string name="bubble_waiting_activity_stream">Nouvelles vide</string>
+		<string name="bubble_no_sim">Pas de carte SIM\nMises à jour de localisation lente attendus</string>
+		<string name="bubble_status_level_prefix">Statuslevel: </string>
+		<string name="bubble_result_null">NULL</string>
+		<string name="bubble_backbutton_disabled">Bouton retour désactivée\nVous avez accepté cette incident</string>
+		<string name="bubble_homebutton_disabled">Bouton d\'accueil désactivée\nVous avez accepté cette incident</string>
+
+		<!-- Dialog -->
+		<string name="dialog_logout_title">Déconnecter</string>
+		<string name="dialog_logout_message">Voulez-vous vraiment déconnecter?</string>
+		<string name="dialog_quit_title">Déconnecter Livesapp</string>
+		<string name="dialog_quit_message">Voulez-vous vraiment fermer cette application?</string>
+		<string name="dialog_visit_title">Visiter son site web</string>
+		<string name="dialog_visit_message">Voulez-vous visiter la page d\'accueil Livesapp.net?</string>
+
+		<string name="dialog_resolution_error_title">Échec de la connexion</string>
+		<string name="dialog_resolution_error_message">Résolution trouvée. Reconnecter!</string>
+		<string name="dialog_resolution_notfound_message">Échec de la connexion. Aucune résolution</string>
+
+		<string name="dialog_playservice_disconnected_title">Déconnectés</string>
+		<string name="dialog_playservice_disconnected_message">Google Play Service déconnectés...</string>
+
+		<string name="dialog_update_title">Mise à jour disponible</string>
+		<string name="dialog_update_message">Il ya une nouvelle version disponible. Voulez-vous l\'installer?</string>
+
+		<!-- Form Hints --><!-- TODO FIX NAMES! UNDERSCORES WANTED -->
+		<string name="regFirstNameHint">Prénom</string>
+		<string name="regLastNameHint">Nom</string>
+		<string name="regEmailHint">Adresse e-mail</string>
+		<string name="regPassHint">Mot de passe</string>
+		<string name="regPassValidHint">Retaper le mot de passe</string>
+
+		<string name="empty_case">Aucun événement actifs à l\'heure actuelle&#8230;</string>
+
+		<!-- Validation Pattern Check -->
+		<string-array name="validation_patterns">
+				<item name="check_email">([a-zA-Z0-9_.-\+])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+</item>
+				<item name="check_firstname">[a-zA-Z]{3,12}</item>
+				<item name="check_lastname">[a-zA-Z]{3,12}</item>
+				<item name="check_password">[a-zA-Z0-9]{4,12}</item>
+		</string-array>
+
+		<!-- Validation Error Messages -->
+		<string-array name="validation_errors">
+				<item name="error_email">Incorrect e-mail, sans espaces</item>
+				<item name="error_firstname">3&#8211;12 caractères, sans espaces</item>
+				<item name="error_lastname">3&#8211;12 caractères, sans espaces</item>
+				<item name="error_password">4&#8211;12 caractères alphanumériques, sans espaces</item>
+				<item name="error_password_doublecheck">Les mots de passe ne correspondent pas</item>
+		</string-array>
+
+		<!-- Status Messages -->
+		<string-array name="status_messages">
+				<item name="connection_checking">Vérification de connexion Internet&#8230;</item>
+				<item name="connection_error">Impossible d\'établir une connexion Internet ou de la maintenance du serveur Livesapp.io</item>
+		</string-array>
+
+		<string name="registration_error">Inscription incorrect</string>
+		<string name="registration_exists">Volontaire existe déjà</string>
+		<string name="registration_title">Inscription</string>
+		<string name="registration_loading">Inscrire nouveau volontaire</string>
+		<string name="registration_success">Volontaire ajouter à la base de données</string>
+
+		<string name="login_loading_title">Connecter...</string>
+		<string name="login_loading_message">Se il vous plaît attendre&#8230;</string>
+		<string name="login_invalid_title">Se identifier invalide</string>
+		<string name="login_invalid_message">E-mail ou mot de passe incorrect</string>
+		<string name="login_error">Erreur de connexion</string>
+
+		<string name="case_alert_title">Événement fermé</string>
+		<string name="case_alert_text_shutdown">Cet événement a été fermé du serveur</string>
+
+		<!-- NO TRANSLATION NEEDED. STANDART SYSTEM VALUES -->
+		<string name="button_neutral">@android:string/ok</string>
+		<string name="button_positive">@android:string/yes</string>
+		<string name="button_negative">@android:string/no</string>
+		<string name="button_positive_ok">@android:string/ok</string>
+		<string name="button_negative_cancel">@android:string/cancel</string>
+
+		<!-- DEBUG -->
+		<string name="default_address">Inconnu Adresse</string>
+		<string name="default_time">00:00</string>
+		<string name="default_distance">0</string>
+		<string name="default_volunteers">0</string>
+
+		<!-- API keys -->
+		<string name="mapsApiKeyDebug">0R4jGI1QSFRNazpM0Ne2riQeQLr_3X9HJxf1NyA</string>
+		<string name="mapsApiKeyProd"></string>
+
+        <!-- Update available -->
+        <string name="new_update_available_title">Mise à jour disponible</string>
+        <string name="new_update_available">Il ya une nouvelle version disponible. Voulez-vous l\'installer?</string>
+        <string name="new_update_available_yes">OUI</string>
+        <string name="new_update_available_no">NO</string>
+
+        <!-- Download Progress -->
+        <string name="new_update_available_progress_title">Téléchargement</string>
+        <string name="new_update_available_progress">Téléchargement nouvelle version...</string>
+        <string name="new_update_available_progress_done">Réussi!</string>
+
+        <string name="okay" >OKAY</string>
+</resources>
